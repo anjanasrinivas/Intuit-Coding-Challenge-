@@ -22,7 +22,7 @@ def find_primes(array):
 
 	maximum = max(array)
 	n = 2
-	#warning - low quality estimation protocol
+	
 	while len(prime_sieve(n)) < maximum:
 		n += 100000
 
