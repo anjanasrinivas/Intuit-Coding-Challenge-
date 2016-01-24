@@ -1,27 +1,6 @@
 import json 
 import copy
-
-# def find_path (d,str):
-#     len_d = len(d)
-
-    
-#     for key,value in d.items(): 
-       
-
-
-
-# def traverse (dict, path = None): 
-#     if not path: 
-#         path = []
-#     for i in dict: 
-#         local_path = path[:].append(i)
-#         if i ['type'] == : 
-#             for j in traverse( - , local path): 
-#                 yield j, local_path 
-#         elif i['type']==  : 
-#             yield i, local_path 
-#         elif i['type'] == 
-    
+   
 def runToTextInData(data, text, path):
     if type(data) == dict :
         for someKey in data:
