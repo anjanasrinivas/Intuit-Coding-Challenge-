@@ -35,7 +35,7 @@ def find_primes(array):
 
 	print(result)
 	print("--- Sieve Operation Completed in: %s seconds ---" % (time.time() - start_time))
-	print (find_primes([3,58,10001]))
+print (find_primes([3,58,10001]))
  
 
 
