@@ -35,14 +35,3 @@ def find_prime(array):
 
 
 	
-	prime = None 
-	count_prime = 0 
-	for i in range(len(lst)): 
-		if count_prime == n: 
-			prime = lst.index(i)
-			break 
-		elif lst[i] == True: 
-			count_prime += 1 
-
-	return prime 
-
