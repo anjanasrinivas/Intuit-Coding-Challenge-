@@ -5,8 +5,6 @@ def runToTextInData(data, text, depth, path):
     if type(data) == dict:
         for someKey in data:
 
-            
-
             if len(path) <= depth:
                 path.append(str(someKey))
             else:
